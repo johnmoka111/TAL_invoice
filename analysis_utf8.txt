@@ -1,0 +1,24 @@
+﻿Analyzing TAL_invoice...                                        
+
+   info - Don't use 'BuildContext's across async gaps - lib\views\clients\client_list_page.dart:69:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\clients\client_list_page.dart:167:24 - use_build_context_synchronously
+warning - The value of the field '_clientCount' isn't used - lib\views\dashboard\dashboard_page.dart:23:7 - unused_field
+warning - The value of the field '_isLoadingStats' isn't used - lib\views\dashboard\dashboard_page.dart:27:8 - unused_field
+  error - The method 'getInvoices' isn't defined for the type 'DatabaseHelper' - lib\views\dashboard\dashboard_page.dart:48:12 - undefined_method
+  error - Undefined name '_' - lib\views\dashboard\dashboard_page.dart:242:9 - undefined_identifier
+  error - Expected to find ')' - lib\views\dashboard\dashboard_page.dart:242:11 - expected_token
+warning - Unused import: 'package:flutter_staggered_animations/flutter_staggered_animations.dart' - lib\views\invoices\invoice_create_page.dart:5:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\views\invoices\invoice_create_page.dart:246:19 - deprecated_member_use
+warning - Unused import: '../../models/client_model.dart' - lib\views\invoices\invoice_detail_page.dart:18:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\views\invoices\invoice_detail_page.dart:88:28 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\views\invoices\invoice_list_page.dart:99:24 - use_build_context_synchronously
+warning - Unused import: 'package:flutter/services.dart' - lib\views\invoices\pdf_invoice_api.dart:8:8 - unused_import
+warning - Dead code - lib\views\invoices\pdf_invoice_api.dart:81:43 - dead_code
+warning - The left operand can't be null, so the right operand is never executed - lib\views\invoices\pdf_invoice_api.dart:81:46 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\views\invoices\pdf_invoice_api.dart:82:44 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\views\invoices\pdf_invoice_api.dart:83:44 - dead_null_aware_expression
+warning - Unused import: 'package:flutter/material.dart' - lib\views\onboarding\onboarding_svgs.dart:2:8 - unused_import
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\views\settings\settings_page.dart:46:25 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\views\shared\app_theme.dart:51:7 - deprecated_member_use
+   info - 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre - lib\views\shared\app_theme.dart:59:44 - deprecated_member_use
+
