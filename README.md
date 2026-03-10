@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # tal_invoice
 
 A new Flutter project.
@@ -15,3 +16,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# TAL_invoice
+une application open source pour les PME pour leurs aider a creer des facture de maniere professionnelle
+>>>>>>> fc1f9fc5df2e3ef00f45d0e4e861beb4b894d26c
